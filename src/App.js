@@ -1,5 +1,9 @@
 import "./App.css";
 import image from "./images/ivan.jpg";
+import { GrLocation, GrPersonalComputer } from "react-icons/gr";
+import { IoMdBriefcase, IoMdBusiness } from "react-icons/io";
+import { AiOutlineMail, AiFillPhone, AiOutlineCalendar } from "react-icons/ai";
+import { BsGlobe } from "react-icons/bs";
 
 function App() {
   return (
@@ -12,19 +16,19 @@ function App() {
           <div className="mildMargin" id="summary_items">
             <h4 className="deepBlue">Ivan Dario Pinzon</h4>
             <p>
-              <i className="fa fa-briefcase deepBlue"></i> Frontend Developer
+              <IoMdBriefcase /> Frontend Web Developer
             </p>
             <p>
-              <i className="fa fa-home deepBlue"></i> Barcelona, Spain
+              <GrLocation /> Barcelona, Spain
             </p>
             <p>
-              <i className="fa fa-envelope deepBlue"></i> ivandariogye@gmail.com
+              <AiOutlineMail /> ivandariogye@gmail.com
             </p>
             <p>
-              <i className="fa fa-phone deepBlue"></i> +34 692623935
+              <AiFillPhone /> +34 692623935
             </p>
             <p>
-              <i className="fa fas fa-link deepBlue"></i>
+              <GrPersonalComputer />
               <a
                 target="_blank"
                 href="https://github.com/ivandax"
@@ -35,12 +39,13 @@ function App() {
               </a>
             </p>
             <p>
-              <i className="fa fas fa-link deepBlue"></i>
+              <IoMdBusiness />
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/ivandariopd/"
                 rel="noopener noreferrer"
               >
+                {" "}
                 Linkedin
               </a>
             </p>
@@ -48,9 +53,9 @@ function App() {
           <hr />
           <div className="mildMargin" id="summary_skills">
             <h4 className="deepBlue">
-              <i className="fa fa-asterisk deepBlue"></i> Skills
+              <GrPersonalComputer /> Skills
             </h4>
-            <p>Javascript</p>
+            <p>Typescript &amp; Javascript </p>
             <div className="progressBar stoneGrey">
               <div
                 className="progress deepBlueBackground"
@@ -86,7 +91,7 @@ function App() {
           </div>
           <div className="mildMargin" id="summary_languages">
             <h4 className="deepBlue">
-              <i className="fa fa-globe deepBlue"></i> Languages
+              <BsGlobe /> Languages
             </h4>
             <p>English</p>
             <div className="progressBar stoneGrey">
@@ -107,15 +112,15 @@ function App() {
         <div className="displayColumn" id="details">
           <div className="white fancyBorder" id="work_experience">
             <h4 className="mildMargin deepBlue">
-              <i className="fa fa-briefcase deepBlue"></i> Work Experience
+              <IoMdBriefcase /> Work Experience
             </h4>
             <div className="mildMargin">
               <h5>Frontend Developer - Nexiona</h5>
               <p>
-                <i className="fa fa-calendar deepBlue"></i> June 2020 - Present
+                <AiOutlineCalendar /> June 2020 - Present
               </p>
-              <p>Responsive design of web platforms</p>
-              <p>Web app development with React and Redux</p>
+              <p>Development of web platforms for an IoT</p>
+              <p>React - Redux - Functional Programming</p>
               <a
                 href="https://nexiona.com/"
                 target="_blank"
@@ -128,16 +133,13 @@ function App() {
             <div className="mildMargin">
               <h5>Freelance Developer - WinterballData</h5>
               <p>
-                <i className="fa fa-calendar deepBlue"></i> April 2020 - July
-                2020
+                <AiOutlineCalendar /> April 2020 - July 2020
               </p>
               <p>
                 Creation of a web app for Dominican baseball historical
                 statistics.
               </p>
-              <p>
-                Design of the data model and implementation on Google Firebase.
-              </p>
+              <p>Design of the data model and implementation on Firestore.</p>
               <p>Authentication, storage and persistence</p>
               <p>
                 Development of various reports with a free-trial period option
@@ -154,7 +156,7 @@ function App() {
             <div className="mildMargin">
               <h5>Freelance Frontend Developer - Ekiter</h5>
               <p>
-                <i className="fa fa-calendar deepBlue"></i> Feb 2020 - May 2020
+                <AiOutlineCalendar /> Feb 2020 - May 2020
               </p>
               <p>Responsive design and animations with CSS and jQuery.</p>
               <p>Styling with Bootstrap 4.</p>
@@ -174,7 +176,7 @@ function App() {
             <div className="mildMargin">
               <h5>Report Analyst: Webhelp BOSE</h5>
               <p>
-                <i className="fa fa-calendar deepBlue"></i> Jan 2019 - June 2020
+                <AiOutlineCalendar /> Jan 2019 - June 2020
               </p>
               <p>
                 Development of New Reports and Working Tools for Performance and
@@ -187,7 +189,7 @@ function App() {
             <div className="mildMargin">
               <h5>Report Analyst: Webhelp Google Android</h5>
               <p>
-                <i className="fa fa-calendar deepBlue"></i> Apr 2017 - Dec 2018
+                <AiOutlineCalendar /> Apr 2017 - Dec 2018
               </p>
               <p>
                 Development and maintenance of reports for performance and
@@ -200,10 +202,10 @@ function App() {
 
           <div className="white fancyBorder" id="projects">
             <h4 className="mildMargin deepBlue">
-              <i className="fa fa-briefcase deepBlue"></i> Projects & Media
+              <IoMdBriefcase /> Projects & Media
             </h4>
             <div className="mildMargin">
-              <h5>Web Development:</h5>
+              <h5>Web Development Portfolio:</h5>
               <p>
                 <a
                   target="_blank"
@@ -213,14 +215,27 @@ function App() {
                   React & Redux - WinterballData Stats
                 </a>
               </p>
+              <p style={{ marginLeft: "8px", fontSize: "12px" }}>
+                Web platform that offers historical data for the Dominican
+                Baseball League. Created with React, Redux and Firebase.
+              </p>
               <p>
                 <a
                   target="_blank"
-                  href="https://simpleprofiles.ew.r.appspot.com/"
+                  href="https://belatedvalentine.com/"
                   rel="noopener noreferrer"
                 >
-                  Express Profiles - Simple Server and REST API
+                  Belated Valentine - Comedy and Art blog
                 </a>
+              </p>
+              <p style={{ marginLeft: "8px", fontSize: "12px" }}>
+                Web platform to showcase various forms of art and comedy
+                content. Created using Next js and Tailwind.
+              </p>
+              <p>SimpleTask - FullStack Project</p>
+              <p style={{ marginLeft: "8px", fontSize: "12px" }}>
+                Frontend and Backend for a business "task manager" web app.
+                Built using React, Redux, MongoDB, Express and Mongoose.
               </p>
               <p>
                 <a
@@ -243,24 +258,6 @@ function App() {
               <p>
                 <a
                   target="_blank"
-                  href="http://www.ivandax.com/projects/movies/"
-                  rel="noopener noreferrer"
-                >
-                  React - Movie Browsing App
-                </a>
-              </p>
-              <p>
-                <a
-                  target="_blank"
-                  href="http://www.ivandax.com/projects/beerapp/"
-                  rel="noopener noreferrer"
-                >
-                  React - Beer Consulting App
-                </a>
-              </p>
-              <p>
-                <a
-                  target="_blank"
                   href="https://sample-todo-ivan.firebaseapp.com/"
                   rel="noopener noreferrer"
                 >
@@ -276,44 +273,17 @@ function App() {
                   PhotoApp: Responsive Design with CSS and Sass
                 </a>
               </p>
-              <p>
-                <a
-                  target="_blank"
-                  href="https://www.ivandax.com/projects/reposearch"
-                  rel="noopener noreferrer"
-                >
-                  Github Repository Search. API requests with Axios
-                </a>
-              </p>
-              <p>
-                <a
-                  target="_blank"
-                  href="https://www.ivandax.com/projects/hangman"
-                  rel="noopener noreferrer"
-                >
-                  Hangman Game. Object Oriented
-                </a>
-              </p>
-              <p>
-                <a
-                  target="_blank"
-                  href="https://www.ivandax.com/projects/landing"
-                  rel="noopener noreferrer"
-                >
-                  Landing Page: Responsive Design
-                </a>
-              </p>
             </div>
           </div>
 
           <div className="white fancyBorder" id="education">
             <h4 className="mildMargin deepBlue">
-              <i className="fa fa-asterisk deepBlue"></i> Education
+              <i className="fa fa-asterisk deepBlue"></i> Studies
             </h4>
             <div className="mildMargin">
               <h5>Skylab Coders</h5>
               <p>
-                <i className="fa fa-calendar deepBlue"></i> Sep 2019 - Ongoing
+                <AiOutlineCalendar /> Sep 2019 - Ongoing
               </p>
               <p>Bootcamp on Frontend Development</p>
               <ul>
@@ -328,7 +298,7 @@ function App() {
             <div className="mildMargin">
               <h5>Coursera: Backend Development with Express</h5>
               <p>
-                <i className="fa fa-calendar deepBlue"></i> May 2020 - June 2020
+                <AiOutlineCalendar /> May 2020 - June 2020
               </p>
               <p>Course on Backend developement with Javascript</p>
               <ul>
@@ -342,7 +312,7 @@ function App() {
             <div className="mildMargin">
               <h5>Coursera: Building Web Applications with PHP</h5>
               <p>
-                <i className="fa fa-calendar deepBlue"></i> Jul 2018 - Nov 2018
+                <AiOutlineCalendar /> Jul 2018 - Nov 2018
               </p>
               <p>
                 5 Course Specialization on Database Application with PHP and SQL
@@ -358,7 +328,7 @@ function App() {
                 Coursera: Responsive Web Design with HTML, CSS and Javascript
               </h5>
               <p>
-                <i className="fa fa-calendar deepBlue"></i> Jan 2018 - May 2018
+                <AiOutlineCalendar /> Jan 2018 - May 2018
               </p>
               <p>4 Course Specialization HTML, CSS, Javascript</p>
             </div>
@@ -366,7 +336,7 @@ function App() {
             <div className="mildMargin">
               <h5>Universitat Autonoma de Barcelona</h5>
               <p>
-                <i className="fa fa-calendar deepBlue"></i> Sep 2016 - June 2017
+                <AiOutlineCalendar /> Sep 2016 - June 2017
               </p>
               <p>Master Degree of Economics and Business</p>
             </div>
@@ -375,17 +345,7 @@ function App() {
       </div>
 
       <footer className="displayColumn displayAlignCenter deepBlueBackground">
-        <div id="footer_content">
-          Social Media:
-          <a
-            className="twitter-follow-button"
-            href="https://twitter.com/ivandax_89"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-twitter whiteBackground"></i>
-          </a>
-        </div>
+        <div id="footer_content">Web Development</div>
       </footer>
     </body>
   );
