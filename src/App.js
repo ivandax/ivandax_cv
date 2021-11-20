@@ -64,25 +64,25 @@ function App() {
                 90%
               </div>
             </div>
-            <p>HTML & CSS</p>
+            <p>React &amp; Javascript</p>
             <div className="progressBar stoneGrey">
               <div className="progress deepBlueBackground" id="progressHTML">
                 90%
               </div>
             </div>
-            <p>React</p>
+            <p>HTML &amp; Javascript </p>
             <div className="progressBar stoneGrey">
               <div className="progress deepBlueBackground" id="progressReact">
-                80%
+                90%
+              </div>
+            </div>
+            <p>Node JS &amp; MongoDB </p>
+            <div className="progressBar stoneGrey">
+              <div className="progress deepBlueBackground" id="progressPython">
+                60%
               </div>
             </div>
             <p>Python</p>
-            <div className="progressBar stoneGrey">
-              <div className="progress deepBlueBackground" id="progressPython">
-                40%
-              </div>
-            </div>
-            <p>PHP</p>
             <div className="progressBar stoneGrey">
               <div className="progress deepBlueBackground" id="progressPHP">
                 30%
