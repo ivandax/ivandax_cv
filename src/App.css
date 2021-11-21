@@ -100,13 +100,14 @@ a{text-decoration: none;}
 
 /*progressBarsWidth*/
 
-#progressJavascript{width:90%;}
-#progressHTML{width:90%;}
-#progressReact{width:90%;}
-#progressPHP{width:30%;}
-#progressPython{width:60%;}
-#progressEnglish{width:100%;}
-#progressSpanish{width:100%;}
+#progress100{width:100%;}
+#progress90{width:90%;}
+#progress80{width:80%;}
+#progress70{width:70%;}
+#progress60{width:60%;}
+#progress50{width:50%;}
+#progress40{width:40%;}
+#progress30{width:30%;}
 
 
 

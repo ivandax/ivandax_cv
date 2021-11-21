@@ -79,32 +79,32 @@ function App() {
             <div className="progressBar stoneGrey">
               <div
                 className="progress deepBlueBackground"
-                id="progressJavascript"
+                id="progress90"
               >
                 90%
               </div>
             </div>
-            <p>React &amp; Javascript</p>
+            <p>React &amp; Redux</p>
             <div className="progressBar stoneGrey">
-              <div className="progress deepBlueBackground" id="progressHTML">
+              <div className="progress deepBlueBackground" id="progress90">
                 90%
               </div>
             </div>
-            <p>HTML &amp; Javascript </p>
+            <p>HTML &amp; CSS </p>
             <div className="progressBar stoneGrey">
-              <div className="progress deepBlueBackground" id="progressReact">
+              <div className="progress deepBlueBackground" id="progress90">
                 90%
               </div>
             </div>
             <p>Node JS &amp; MongoDB </p>
             <div className="progressBar stoneGrey">
-              <div className="progress deepBlueBackground" id="progressPython">
-                60%
+              <div className="progress deepBlueBackground" id="progress70">
+                70%
               </div>
             </div>
             <p>Python</p>
             <div className="progressBar stoneGrey">
-              <div className="progress deepBlueBackground" id="progressPHP">
+              <div className="progress deepBlueBackground" id="progress30">
                 30%
               </div>
             </div>
@@ -115,13 +115,13 @@ function App() {
             </h4>
             <p>English</p>
             <div className="progressBar stoneGrey">
-              <div className="progress deepBlueBackground" id="progressEnglish">
+              <div className="progress deepBlueBackground" id="progress100">
                 100%
               </div>
             </div>
             <p>Spanish</p>
             <div className="progressBar stoneGrey">
-              <div className="progress deepBlueBackground" id="progressSpanish">
+              <div className="progress deepBlueBackground" id="progress100">
                 100%
               </div>
             </div>
@@ -139,7 +139,7 @@ function App() {
               <p>
                 <AiOutlineCalendar /> June 2020 - Present
               </p>
-              <p>Development of web platforms for an IoT</p>
+              <p>Development of web platforms for an IoT business</p>
               <p>React - Redux - Functional Programming</p>
               <a
                 href="https://nexiona.com/"
