@@ -84,7 +84,7 @@ function App() {
                 90%
               </div>
             </div>
-            <p>React &amp; Redux</p>
+            <p>React</p>
             <div className="progressBar stoneGrey">
               <div className="progress deepBlueBackground" id="progress90">
                 90%
@@ -96,16 +96,16 @@ function App() {
                 90%
               </div>
             </div>
-            <p>Node JS &amp; MongoDB </p>
+            <p>Node JS</p>
             <div className="progressBar stoneGrey">
-              <div className="progress deepBlueBackground" id="progress70">
-                70%
+              <div className="progress deepBlueBackground" id="progress60">
+                60%
               </div>
             </div>
-            <p>Python</p>
+            <p>Java</p>
             <div className="progressBar stoneGrey">
-              <div className="progress deepBlueBackground" id="progress30">
-                30%
+              <div className="progress deepBlueBackground" id="progress60">
+                60%
               </div>
             </div>
           </div>
@@ -135,12 +135,28 @@ function App() {
               <IoMdBriefcase /> Work Experience
             </h4>
             <div className="mildMargin">
+              <h5>Frontend Developer - Zeelo</h5>
+              <p>
+                <AiOutlineCalendar /> March 2022 - Present
+              </p>
+              <p>Development of  frontend applications for a logistics business</p>
+              <p>React - Recoil - Redux Sagas - Agile - Component libraries</p>
+              <a
+                href="https://zeelo.co/uk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Zeelo
+              </a>
+            </div>
+            <hr />
+            <div className="mildMargin">
               <h5>Frontend Developer - Nexiona</h5>
               <p>
-                <AiOutlineCalendar /> June 2020 - Present
+                <AiOutlineCalendar /> June 2020 - March 2022
               </p>
               <p>Development of web platforms for an IoT business</p>
-              <p>React - Redux - Functional Programming</p>
+              <p>React - Typescript - Redux - Functional Programming</p>
               <a
                 href="https://nexiona.com/"
                 target="_blank"
@@ -242,7 +258,7 @@ function App() {
               <p>
                 <a
                   target="_blank"
-                  href="https://belatedvalentine.com/"
+                  href="https://belated-valentine.web.app/"
                   rel="noopener noreferrer"
                 >
                   Belated Valentine - Comedy and Art blog
@@ -275,24 +291,6 @@ function App() {
                   React & Redux - SimpleTxt: Social Media with Firebase
                 </a>
               </p>
-              <p>
-                <a
-                  target="_blank"
-                  href="https://sample-todo-ivan.firebaseapp.com/"
-                  rel="noopener noreferrer"
-                >
-                  React - Simple To Do List
-                </a>
-              </p>
-              <p>
-                <a
-                  target="_blank"
-                  href="https://www.ivandax.com/projects/photoapp"
-                  rel="noopener noreferrer"
-                >
-                  PhotoApp: Responsive Design with CSS and Sass
-                </a>
-              </p>
             </div>
           </div>
 
@@ -301,9 +299,38 @@ function App() {
               <i className="fa fa-asterisk deepBlue"></i> Studies
             </h4>
             <div className="mildMargin">
+              <h5>Ironhack</h5>
+              <p>
+                <AiOutlineCalendar /> June 2022 - Nov 2022
+              </p>
+              <p>Bootcamp on Backend development with Java</p>
+              <ul>
+                <li>Java programming</li>
+                <li>Persistence with MySQL</li>
+                <li>Springboot</li>
+                <li>JPA</li>
+                <li>Security</li>
+              </ul>
+            </div>
+            <hr />
+            <div className="mildMargin">
+              <h5>Udacity</h5>
+              <p>
+                <AiOutlineCalendar /> March 2022 - June 2022
+              </p>
+              <p>Web Applications with Python</p>
+              <ul>
+                <li>REST APIs with Flask</li>
+                <li>Postgres</li>
+                <li>SQLAlchemy</li>
+                <li>Deployment</li>
+              </ul>
+            </div>
+            <hr />
+            <div className="mildMargin">
               <h5>Skylab Coders</h5>
               <p>
-                <AiOutlineCalendar /> Sep 2019 - Ongoing
+                <AiOutlineCalendar /> Sep 2019 - Dec 2019
               </p>
               <p>Bootcamp on Frontend Development</p>
               <ul>
