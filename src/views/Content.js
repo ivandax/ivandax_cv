@@ -2,6 +2,7 @@ import "../App.css";
 import { useState } from "react";
 
 import SidePanel from "../components/SidePanel";
+import { Promises } from "../components/Promises";
 
 function Content() {
   const [activeSection, setActiveSection] = useState("event-loop");
@@ -122,35 +123,7 @@ function SectionContent({ activeSection }) {
       );
     }
     case "promises": {
-      return (
-        <div style={{ padding: "10px" }}>
-          <h3 style={{ margin: 0 }}>Promises</h3>
-          <p>
-            A promise in Javascript allows us to handle asynchronous operations.
-            A typical case where we use promises is when calling a REST API, the
-            response might take some time. The promise is like a container for
-            the resulting value of that call.
-          </p>
-          <p>
-            The promise might resolve successfully or it might fail, so it has
-            three distinct states: "Pending", "Fullfilled" and "Rejected"
-          </p>
-          <pre>
-            <code>
-              {`
-              const myPromise = new Promise((resolve, reject) => {
-                // Do some asynchronous operation here
-                if (/* operation succeeds */) {
-                  resolve(result);
-                } else {
-                  reject(error);
-                }
-              });
-              `}
-            </code>
-          </pre>
-        </div>
-      );
+      return <Promises />;
     }
     case "closures": {
       return <>Closures</>;
