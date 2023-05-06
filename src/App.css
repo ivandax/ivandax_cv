@@ -117,10 +117,6 @@ a {
   margin-top: 10px;
 }
 
-#tutorials_content {
-  margin-top: 10px;
-}
-
 #footer_content {
   align-items: center;
   color: white;
@@ -190,4 +186,5 @@ a {
     margin-top: 0px;
     width: 800px;
   }
+
 }
