@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./views/Home";
 import ErrorPage from "./views/ErrorPage";
+import Content from "./views/Content";
 
 import { initializeApp } from "firebase/app";
 
@@ -28,9 +29,8 @@ const router = createBrowserRouter([
   },
   {
     path: "/content",
-    element: <div>Hello world!</div>,
+    element: <Content />,
   },
-  
 ]);
 
 function App() {

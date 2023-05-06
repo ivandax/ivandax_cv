@@ -3,9 +3,12 @@ import image from "../images/ivan.jpg";
 import { GrLocation, GrPersonalComputer } from "react-icons/gr";
 import { IoMdBriefcase, IoMdBusiness } from "react-icons/io";
 import { AiOutlineMail, AiFillPhone } from "react-icons/ai";
-import { BsGlobe } from "react-icons/bs";
+import { BsGlobe, BsCodeSquare } from "react-icons/bs";
+import { Link, useLocation } from "react-router-dom";
 
 function SidePanel() {
+  const location = useLocation();
+
   return (
     <div className="displayColumn white fancyBorder" id="summary">
       <div id="summary_photo">
@@ -47,6 +50,19 @@ function SidePanel() {
             Linkedin
           </a>
         </p>
+      </div>
+      <hr />
+      <div className="mildMargin" id="summary_skills">
+        <h4 className="deepBlue">
+          <BsCodeSquare /> Tutorials
+        </h4>
+        <div style={{ padding: "8px" }}>
+          {location.pathname === "/content" ? (
+            <Link to="/">Back to Home</Link>
+          ) : (
+            <Link to="/content">See content</Link>
+          )}
+        </div>
       </div>
       <hr />
       <div className="mildMargin" id="summary_skills">
