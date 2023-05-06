@@ -43,7 +43,12 @@ export default Content;
 function Tabs({ activeSection, setActiveSection }) {
   return (
     <div
-      style={{ display: "flex", width: "100%", justifyContent: "space-evenly" }}
+      className="tabs"
+      style={{
+        display: "flex",
+        width: "100%",
+        justifyContent: "space-evenly",
+      }}
     >
       <button
         onClick={() => setActiveSection("event-loop")}
@@ -55,6 +60,7 @@ function Tabs({ activeSection, setActiveSection }) {
             activeSection === "event-loop" ? "#2952a3" : "#849ac5",
           color: activeSection === "event-loop" ? "white" : "black",
           flexGrow: 1,
+          cursor: "pointer",
         }}
       >
         Event Loop
@@ -68,6 +74,7 @@ function Tabs({ activeSection, setActiveSection }) {
           color: activeSection === "promises" ? "white" : "black",
           border: "none",
           flexGrow: 1,
+          cursor: "pointer",
         }}
       >
         Promises
@@ -81,6 +88,7 @@ function Tabs({ activeSection, setActiveSection }) {
           color: activeSection === "closures" ? "white" : "black",
           border: "none",
           flexGrow: 1,
+          cursor: "pointer",
         }}
       >
         Closures
@@ -95,6 +103,7 @@ function Tabs({ activeSection, setActiveSection }) {
           color: activeSection === "inheritance" ? "white" : "black",
           border: "none",
           flexGrow: 1,
+          cursor: "pointer",
         }}
       >
         Inheritance
@@ -108,6 +117,7 @@ function Tabs({ activeSection, setActiveSection }) {
           color: activeSection === "fetch" ? "white" : "black",
           border: "none",
           flexGrow: 1,
+          cursor: "pointer",
         }}
       >
         fetch
@@ -121,6 +131,7 @@ function Tabs({ activeSection, setActiveSection }) {
           color: activeSection === "this" ? "white" : "black",
           border: "none",
           flexGrow: 1,
+          cursor: "pointer",
         }}
       >
         this

@@ -117,6 +117,10 @@ a {
   margin-top: 10px;
 }
 
+.tabs {
+  flex-direction: column;
+}
+
 #footer_content {
   align-items: center;
   color: white;
@@ -187,4 +191,7 @@ a {
     width: 800px;
   }
 
+  .tabs {
+    flex-direction: row;
+  }
 }
