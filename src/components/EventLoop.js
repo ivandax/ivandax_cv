@@ -100,25 +100,6 @@ function EventLoop() {
         by leveraging the Web API, JS is able to handle blocking code in a
         concurrent way.
       </p>
-      <div>Sources:</div>
-      <div>
-        <a
-          rel="noreferrer"
-          target="_blank"
-          href="https://geekflare.com/javascript-event-loops/"
-        >
-          Geekflare
-        </a>
-      </div>
-      <div>
-        <a
-          rel="noreferrer"
-          target="_blank"
-          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop"
-        >
-          Web Docs
-        </a>
-      </div>
     </div>
   );
 }
