@@ -3,6 +3,7 @@ import { useState } from "react";
 
 import SidePanel from "../components/SidePanel";
 import { Promises } from "../components/Promises";
+import { EventLoop } from "../components/EventLoop";
 
 function Content() {
   const [activeSection, setActiveSection] = useState("event-loop");
@@ -115,12 +116,7 @@ function TabButton({ label, tab, setActiveSection, activeSection }) {
 function SectionContent({ activeSection }) {
   switch (activeSection) {
     case "event-loop": {
-      return (
-        <div style={{ padding: "10px", width: "100%" }}>
-          <h3 style={{ margin: 0 }}>Event Loop</h3>
-          <p>Hello world</p>
-        </div>
-      );
+      return <EventLoop />;
     }
     case "promises": {
       return <Promises />;
