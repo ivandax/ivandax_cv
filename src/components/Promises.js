@@ -30,6 +30,17 @@ function Promises() {
   }
     `;
 
+  const asyncAwaitString = `
+    async function startAsyncOperation() {
+      try {
+        const data = await getPromise();
+        /* We can do something with the data */
+      } catch (e) {
+        /* We handle the promise failure */
+      }
+  }
+    `;
+
   const [resolution, setResolution] = useState(null);
 
   function getPromise() {
@@ -78,11 +89,20 @@ function Promises() {
         {promiseExampleString}
       </SyntaxHighlighter>
       <p>
-        We can define an example: It simulates a response that
-        resolves after 3 seconds, with a 50% chance of resolving the promise, and 50% of rejecting it.
+        We can define an example: It simulates a response that resolves after 3
+        seconds, with a 50% chance of resolving the promise, and 50% of
+        rejecting it.
       </p>
       <SyntaxHighlighter language="javascript">
         {promiseWithTimeoutString}
+      </SyntaxHighlighter>
+      <p>
+        A very practical way to deal with promises is using the async / await
+        pattern. The await keyword basically "pauses" the code execution until
+        the promise is resolved.
+      </p>
+      <SyntaxHighlighter language="javascript">
+        {asyncAwaitString}
       </SyntaxHighlighter>
       <button onClick={startAsyncOperation}>Try it</button>
       {resolution === null ? (
