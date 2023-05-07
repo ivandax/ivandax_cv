@@ -4,12 +4,13 @@ import { useState } from "react";
 import SidePanel from "../components/SidePanel";
 import { Promises } from "../components/Promises";
 import { EventLoop } from "../components/EventLoop";
+import { Inheritance } from "../components/Inheritance";
 
 function Content() {
   const [activeSection, setActiveSection] = useState("event-loop");
 
   return (
-    <body style={{ paddingTop: "12px" }}>
+    <div style={{ paddingTop: "12px" }}>
       <div className="displayColumn displayJustify" id="content">
         <SidePanel />
 
@@ -38,7 +39,7 @@ function Content() {
       <footer className="displayColumn displayAlignCenter deepBlueBackground">
         <div id="footer_content">Web Development</div>
       </footer>
-    </body>
+    </div>
   );
 }
 
@@ -65,12 +66,6 @@ function Tabs({ activeSection, setActiveSection }) {
         setActiveSection={setActiveSection}
         tab="promises"
         label="Promises"
-      />
-      <TabButton
-        activeSection={activeSection}
-        setActiveSection={setActiveSection}
-        tab="closures"
-        label="Closures"
       />
       <TabButton
         activeSection={activeSection}
@@ -121,11 +116,8 @@ function SectionContent({ activeSection }) {
     case "promises": {
       return <Promises />;
     }
-    case "closures": {
-      return <>Closures</>;
-    }
     case "inheritance": {
-      return <>Inheritance</>;
+      return <Inheritance />;
     }
     case "fetch": {
       return <>fetch</>;

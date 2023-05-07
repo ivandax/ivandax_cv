@@ -6,7 +6,7 @@ import SidePanel from "../components/SidePanel";
 
 function Home() {
   return (
-    <body style={{ paddingTop: "12px" }}>
+    <div style={{ paddingTop: "12px" }}>
       <div className="displayColumn displayJustify" id="content">
         <SidePanel />
 
@@ -277,7 +277,7 @@ function Home() {
       <footer className="displayColumn displayAlignCenter deepBlueBackground">
         <div id="footer_content">Web Development</div>
       </footer>
-    </body>
+    </div>
   );
 }
 
