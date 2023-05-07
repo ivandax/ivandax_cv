@@ -38,7 +38,7 @@ function Promises() {
       } catch (e) {
         /* We handle the promise failure */
       }
-  }
+    }
     `;
 
   const [resolution, setResolution] = useState(null);
@@ -72,15 +72,15 @@ function Promises() {
   }
 
   return (
-    <div style={{ padding: "10px" }}>
+    <div style={{ padding: "10px", width: "100%" }}>
       <h3 style={{ margin: 0 }}>Promises</h3>
-      <p>
+      <p style={{ wordWrap: "break-word" }}>
         A promise in Javascript allows us to handle asynchronous operations. A
         typical case where we use promises is when calling a REST API, the
         response might take some time. The promise is like a container for the
         resulting value of that call.
       </p>
-      <p>
+      <p style={{ wordWrap: "break-word" }}>
         The promise might resolve successfully or it might fail, so it has three
         distinct states: "Pending", "Fullfilled" and "Rejected"
       </p>
@@ -88,7 +88,7 @@ function Promises() {
       <SyntaxHighlighter language="javascript">
         {promiseExampleString}
       </SyntaxHighlighter>
-      <p>
+      <p style={{ wordWrap: "break-word" }}>
         We can define an example: It simulates a response that resolves after 3
         seconds, with a 50% chance of resolving the promise, and 50% of
         rejecting it.
@@ -96,17 +96,28 @@ function Promises() {
       <SyntaxHighlighter language="javascript">
         {promiseWithTimeoutString}
       </SyntaxHighlighter>
-      <p>
+      <p style={{ wordWrap: "break-word" }}>
         A very practical way to deal with promises is using the async / await
         pattern. The await keyword basically "pauses" the code execution until
-        the promise is resolved.
+        the promise is resolved. If a function returns a promise, it can be
+        awaited.
       </p>
       <SyntaxHighlighter language="javascript">
         {asyncAwaitString}
       </SyntaxHighlighter>
       <button onClick={startAsyncOperation}>Try it</button>
       {resolution === null ? (
-        <></>
+        <div
+          style={{
+            padding: "10px",
+            margin: "10px",
+            backgroundColor: "white",
+            width: "250px",
+            color: "white",
+          }}
+        >
+          null
+        </div>
       ) : resolution.status === "pending" ? (
         <div
           style={{

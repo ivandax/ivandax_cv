@@ -116,7 +116,7 @@ function SectionContent({ activeSection }) {
   switch (activeSection) {
     case "event-loop": {
       return (
-        <div style={{ padding: "10px" }}>
+        <div style={{ padding: "10px", width: "100%" }}>
           <h3 style={{ margin: 0 }}>Event Loop</h3>
           <p>Hello world</p>
         </div>
