@@ -5,6 +5,7 @@ import SidePanel from "../components/SidePanel";
 import { Promises } from "../components/Promises";
 import { EventLoop } from "../components/EventLoop";
 import { Inheritance } from "../components/Inheritance";
+import { This } from "../components/This";
 
 function Content() {
   const [activeSection, setActiveSection] = useState("event-loop");
@@ -123,7 +124,7 @@ function SectionContent({ activeSection }) {
       return <>fetch</>;
     }
     case "this": {
-      return <>this</>;
+      return <This />;
     }
     default: {
       return <>Not Found</>;
