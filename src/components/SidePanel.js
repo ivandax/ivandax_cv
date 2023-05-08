@@ -53,8 +53,11 @@ function SidePanel() {
       </div>
       <hr />
       <div className="mildMargin" id="summary_skills">
-        <h4 className="deepBlue">
-          <BsCodeSquare /> Tutorials
+        <h4
+          className="deepBlue"
+          style={{ marginTop: "2px", marginBottomf: "2px" }}
+        >
+          <BsCodeSquare /> Extra stuff
         </h4>
         <div style={{ padding: "8px" }}>
           {location.pathname === "/content" ? (

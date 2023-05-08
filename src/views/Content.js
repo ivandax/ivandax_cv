@@ -6,6 +6,7 @@ import { Promises } from "../components/Promises";
 import { EventLoop } from "../components/EventLoop";
 import { Inheritance } from "../components/Inheritance";
 import { This } from "../components/This";
+import { Fetch } from "../components/Fetch";
 
 function Content() {
   const [activeSection, setActiveSection] = useState("event-loop");
@@ -121,7 +122,7 @@ function SectionContent({ activeSection }) {
       return <Inheritance />;
     }
     case "fetch": {
-      return <>fetch</>;
+      return <Fetch />;
     }
     case "this": {
       return <This />;
