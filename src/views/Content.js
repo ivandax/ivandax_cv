@@ -8,6 +8,7 @@ import { Inheritance } from "../components/Inheritance";
 import { This } from "../components/This";
 import { Fetch } from "../components/Fetch";
 import { Links } from "../components/Links";
+import { ReactComponent } from "../components/ReactComponent";
 
 function Content() {
   const [activeSection, setActiveSection] = useState("event-loop");
@@ -90,6 +91,12 @@ function Tabs({ activeSection, setActiveSection }) {
         setActiveSection={setActiveSection}
         tab="this"
         label="this"
+      />
+      <TabButton
+        activeSection={activeSection}
+        setActiveSection={setActiveSection}
+        tab="react"
+        label="React"
         position="right"
       />
     </div>
@@ -115,7 +122,7 @@ function TabButton({ label, tab, setActiveSection, activeSection, position }) {
         flexGrow: 1,
         cursor: "pointer",
         ...style,
-        width: "5%"
+        width: "16.666%",
       }}
     >
       {label}
@@ -139,6 +146,9 @@ function SectionContent({ activeSection }) {
     }
     case "this": {
       return <This />;
+    }
+    case "react": {
+      return <ReactComponent />;
     }
     default: {
       return <>Not Found</>;

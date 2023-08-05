@@ -163,7 +163,6 @@ a {
   margin-bottom: 8px;
   display: flex;
   justify-content: space-evenly;
-  flex-grow: 1;
 }
 
 .main_links {
