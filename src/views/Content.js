@@ -124,6 +124,7 @@ function TabButton({ label, tab, setActiveSection, activeSection, position }) {
         ...style,
         width: "16.666%",
       }}
+      className="tabButton"
     >
       {label}
     </button>

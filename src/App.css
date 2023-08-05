@@ -194,6 +194,11 @@ a {
   border-radius: 0 8px 8px 0;
 }
 
+.tabButton {
+  width: 100% !important;
+  border-radius: 0 !important;
+}
+
 @media (min-width: 500px) {
   #summary_photo {
     width: 50%;
