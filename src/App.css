@@ -156,6 +156,45 @@ a {
   width: 30%;
 }
 
+.main_links {
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+}
+
+.main_links {
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main_links > a {
+  text-decoration: none;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  color: black;
+}
+
+.highlighted_link {
+  background-color: #2952a3;
+  color: white !important;
+}
+
+.highlighted_link.left {
+  border-radius: 8px 0 0 8px;
+}
+
+.highlighted_link.right {
+  border-radius: 0 8px 8px 0;
+}
+
 @media (min-width: 500px) {
   #summary_photo {
     width: 50%;

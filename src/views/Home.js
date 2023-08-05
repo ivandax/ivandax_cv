@@ -3,6 +3,7 @@ import { AiOutlineCalendar } from "react-icons/ai";
 import { IoMdBriefcase } from "react-icons/io";
 
 import SidePanel from "../components/SidePanel";
+import { Links } from "../components/Links";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <SidePanel />
 
         <div className="displayColumn" id="details">
+          <Links />
           <div className="white fancyBorder" id="work_experience">
             <h4 className="mildMargin deepBlue">
               <IoMdBriefcase /> Work Experience

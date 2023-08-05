@@ -3,11 +3,9 @@ import image from "../images/ivan.jpg";
 import { GrLocation, GrPersonalComputer } from "react-icons/gr";
 import { IoMdBriefcase, IoMdBusiness } from "react-icons/io";
 import { AiOutlineMail, AiFillPhone } from "react-icons/ai";
-import { BsGlobe, BsCodeSquare } from "react-icons/bs";
-import { Link, useLocation } from "react-router-dom";
+import { BsGlobe } from "react-icons/bs";
 
 function SidePanel() {
-  const location = useLocation();
 
   return (
     <div className="displayColumn white fancyBorder" id="summary">
@@ -46,28 +44,10 @@ function SidePanel() {
             href="https://www.linkedin.com/in/ivandariopd/"
             rel="noopener noreferrer"
           >
-            {" "}
             Linkedin
           </a>
         </p>
       </div>
-      <hr />
-      <div className="mildMargin" id="summary_skills">
-        <h4
-          className="deepBlue"
-          style={{ marginTop: "2px", marginBottomf: "2px" }}
-        >
-          <BsCodeSquare /> Extra stuff
-        </h4>
-        <div style={{ padding: "8px" }}>
-          {location.pathname === "/content" ? (
-            <Link to="/">Back to Home</Link>
-          ) : (
-            <Link to="/content">See content</Link>
-          )}
-        </div>
-      </div>
-      <hr />
       <div className="mildMargin" id="summary_skills">
         <h4 className="deepBlue">
           <GrPersonalComputer /> Skills
