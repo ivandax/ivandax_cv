@@ -105,6 +105,13 @@ function SidePanel() {
         <h4 className="deepBlue iconAndTitle">
           <WriteIcon /> More stuff
         </h4>
+        <a
+          href="https://github.com/ivandax/webpack-basic"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {"Webpack (link to Github)"}
+        </a>
         <hr />
       </div>
     </div>
