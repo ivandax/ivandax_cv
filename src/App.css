@@ -50,7 +50,7 @@ a {
 }
 
 .mildMargin {
-  margin-left: 7px;
+  margin-left: 10px;
 }
 
 .fancyBorder {
@@ -89,6 +89,12 @@ a {
   background-color: #d9d9d9;
 }
 
+.iconAndTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 /*ID*/
 #content {
   width: 97.5%;
@@ -97,7 +103,7 @@ a {
 
 #summary_photo {
   width: 100%;
-  margin-left: 0px;
+  margin: 0;
 }
 
 #summary_photo img {
@@ -203,7 +209,6 @@ a {
   #summary_photo {
     width: 50%;
     align-self: center;
-    margin: 12px;
   }
 
   #summary {

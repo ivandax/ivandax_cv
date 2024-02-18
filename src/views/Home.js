@@ -25,7 +25,13 @@ function Home() {
               <p>
                 Development of frontend applications for a logistics business
               </p>
-              <p>React - Recoil - Redux Sagas - Agile - Component libraries</p>
+              <ul>
+                <li>Web applications with React, JS and TS</li>
+                <li>State management with Recoil, Redux</li>
+                <li>Redux Sagas</li>
+                <li>Styled Components, Material UI</li>
+                <li>Maps with Leaflet</li>
+              </ul>
               <a
                 href="https://zeelo.co/uk"
                 target="_blank"
@@ -41,7 +47,12 @@ function Home() {
                 <AiOutlineCalendar /> June 2020 - March 2022
               </p>
               <p>Development of web platforms for an IoT business</p>
-              <p>React - Typescript - Redux - Functional Programming</p>
+              <ul>
+                <li>Web applications with React and TS</li>
+                <li>State management with Redux</li>
+                <li>Redux loop, Redux observable</li>
+                <li>Functional programming with fp-ts and io-ts</li>
+              </ul>
               <a
                 href="https://nexiona.com/"
                 target="_blank"
@@ -57,7 +68,7 @@ function Home() {
                 <AiOutlineCalendar /> April 2020 - July 2020
               </p>
               <p>
-                Creation of a web app for Dominican baseball historical
+                My first full-stack project: Creation of a web app for Dominican baseball historical
                 statistics.
               </p>
               <p>Design of the data model and implementation on Firestore.</p>

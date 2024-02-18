@@ -3,10 +3,10 @@ import image from "../images/ivan.jpg";
 import { GrLocation, GrPersonalComputer } from "react-icons/gr";
 import { IoMdBriefcase, IoMdBusiness } from "react-icons/io";
 import { AiOutlineMail, AiFillPhone } from "react-icons/ai";
-import { BsGlobe } from "react-icons/bs";
+import { BsGlobe as LanguageIcon } from "react-icons/bs";
+import { TfiWrite as WriteIcon } from "react-icons/tfi";
 
 function SidePanel() {
-
   return (
     <div className="displayColumn white fancyBorder" id="summary">
       <div id="summary_photo">
@@ -14,30 +14,30 @@ function SidePanel() {
       </div>
       <div className="mildMargin" id="summary_items">
         <h4 className="deepBlue">Ivan Dario Pinzon</h4>
-        <p>
+        <p className="iconAndTitle">
           <IoMdBriefcase /> Frontend Web Developer
         </p>
-        <p>
+        <p className="iconAndTitle">
           <GrLocation /> Barcelona, Spain
         </p>
-        <p>
-          <AiOutlineMail /> ivandariogye@gmail.com
+        <p className="iconAndTitle">
+          <AiOutlineMail />
+          {"  ivandariogye@gmail.com"}
         </p>
-        <p>
+        <p className="iconAndTitle">
           <AiFillPhone /> +34 692623935
         </p>
-        <p>
+        <p className="iconAndTitle">
           <GrPersonalComputer />
           <a
             target="_blank"
             href="https://github.com/ivandax"
             rel="noopener noreferrer"
           >
-            {" "}
             Github
           </a>
         </p>
-        <p>
+        <p className="iconAndTitle">
           <IoMdBusiness />
           <a
             target="_blank"
@@ -49,7 +49,7 @@ function SidePanel() {
         </p>
       </div>
       <div className="mildMargin" id="summary_skills">
-        <h4 className="deepBlue">
+        <h4 className="deepBlue iconAndTitle">
           <GrPersonalComputer /> Skills
         </h4>
         <p>Typescript &amp; Javascript </p>
@@ -84,8 +84,8 @@ function SidePanel() {
         </div>
       </div>
       <div className="mildMargin" id="summary_languages">
-        <h4 className="deepBlue">
-          <BsGlobe /> Languages
+        <h4 className="deepBlue iconAndTitle">
+          <LanguageIcon /> Languages
         </h4>
         <p>English</p>
         <div className="progressBar stoneGrey">
@@ -99,6 +99,12 @@ function SidePanel() {
             100%
           </div>
         </div>
+        <hr />
+      </div>
+      <div className="mildMargin" id="summary_languages">
+        <h4 className="deepBlue iconAndTitle">
+          <WriteIcon /> More stuff
+        </h4>
         <hr />
       </div>
     </div>
