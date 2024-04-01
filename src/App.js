@@ -6,6 +6,7 @@ import ErrorPage from "./views/ErrorPage";
 import Content from "./views/Content";
 
 import { initializeApp } from "firebase/app";
+import Algorithms from "./views/Algorithms";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBH6Eixd4YI9Pd-KJHczujVqSp1DFM2i3o",
@@ -30,6 +31,11 @@ const router = createBrowserRouter([
   {
     path: "/content",
     element: <Content />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/algorithms",
+    element: <Algorithms />,
     errorElement: <ErrorPage />,
   },
 ]);

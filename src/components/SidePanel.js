@@ -5,6 +5,7 @@ import { IoMdBriefcase, IoMdBusiness } from "react-icons/io";
 import { AiOutlineMail, AiFillPhone } from "react-icons/ai";
 import { BsGlobe as LanguageIcon } from "react-icons/bs";
 import { TfiWrite as WriteIcon } from "react-icons/tfi";
+import { Link } from "react-router-dom";
 
 function SidePanel() {
   return (
@@ -112,6 +113,14 @@ function SidePanel() {
         >
           {"Webpack (link to Github)"}
         </a>
+        <hr />
+        <Link
+          to="/algorithms"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {"Webpack (link to Github)"}
+        </Link>
         <hr />
       </div>
     </div>
