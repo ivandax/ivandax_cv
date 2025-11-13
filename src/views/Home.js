@@ -3,7 +3,6 @@ import { AiOutlineCalendar } from "react-icons/ai";
 import { IoMdBriefcase } from "react-icons/io";
 
 import SidePanel from "../components/SidePanel";
-import { Links } from "../components/Links";
 
 function Home() {
   return (
@@ -12,11 +11,35 @@ function Home() {
         <SidePanel />
 
         <div className="displayColumn" id="details">
-          <Links />
           <div className="white fancyBorder" id="work_experience">
             <h4 className="mildMargin deepBlue">
               <IoMdBriefcase /> Work Experience
             </h4>
+            <div className="mildMargin">
+              <h5>Senior Frontend Developer - RatedPower | Enverus</h5>
+              <p>
+                <AiOutlineCalendar /> June 2024 - Present
+              </p>
+              <p>
+                Development of a web application for power plants design
+              </p>
+              <ul>
+                <li>React, Typescript</li>
+                <li>Zustand, React Context</li>
+                <li>GraphQL</li>
+                <li>Styled components</li>
+                <li>Mapbox</li>
+                <li>Three.js and React Three Fiber</li>
+              </ul>
+              <a
+                href="https://ratedpower.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                RatedPower - Enverus
+              </a>
+            </div>
+            <hr />
             <div className="mildMargin">
               <h5>Frontend Developer - Zeelo</h5>
               <p>
@@ -63,12 +86,12 @@ function Home() {
             </div>
             <hr />
             <div className="mildMargin">
-              <h5>Freelance Developer - WinterballData</h5>
+              <h5>WinterballData</h5>
               <p>
-                <AiOutlineCalendar /> April 2020 - July 2020
+                <AiOutlineCalendar /> Ongoing freelance project
               </p>
               <p>
-                My first full-stack project: Creation of a web app for Dominican baseball historical
+                Full-stack project: Creation of a web app for Dominican baseball historical
                 statistics.
               </p>
               <p>Design of the data model and implementation on Firestore.</p>
@@ -86,108 +109,24 @@ function Home() {
             </div>
             <hr />
             <div className="mildMargin">
-              <h5>Freelance Frontend Developer - Ekiter</h5>
+              <h5>Culturetxt.com</h5>
               <p>
-                <AiOutlineCalendar /> Feb 2020 - May 2020
+                <AiOutlineCalendar /> Feb 2024
               </p>
-              <p>Responsive design and animations with CSS and jQuery.</p>
-              <p>Styling with Bootstrap 4.</p>
+              <p>React, Firebase, Firestore, Zustand</p>
+              <p>Styling with Styled components</p>
               <p>
-                Building of an app for handling user data and credit card
-                payments with React / Redux & MangoPay.
+                App for self-publishing articles and written content.
               </p>
               <a
-                href="http://www.ekiter.com"
+                href="http://www.culturetxt.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Ekiter
+                Culturetxt
               </a>
             </div>
             <hr />
-            <div className="mildMargin">
-              <h5>Report Analyst: Webhelp BOSE</h5>
-              <p>
-                <AiOutlineCalendar /> Jan 2019 - June 2020
-              </p>
-              <p>
-                Development of New Reports and Working Tools for Performance and
-                Quality Monitoring of a Customer Service Project with over 100
-                representatives. Automation of Reports using VBA. Development of
-                Financial Monitoring tools.
-              </p>
-            </div>
-            <hr />
-            <div className="mildMargin">
-              <h5>Report Analyst: Webhelp Google Android</h5>
-              <p>
-                <AiOutlineCalendar /> Apr 2017 - Dec 2018
-              </p>
-              <p>
-                Development and maintenance of reports for performance and
-                quality monitoring of a Customer Service Project with over 300
-                representatives. Automation of reports using Google Sheets API
-                (Javascript) and Python.
-              </p>
-            </div>
-          </div>
-
-          <div className="white fancyBorder" id="projects">
-            <h4 className="mildMargin deepBlue">
-              <IoMdBriefcase /> Projects & Media
-            </h4>
-            <div className="mildMargin">
-              <h5>Web Development Portfolio:</h5>
-              <p>
-                <a
-                  target="_blank"
-                  href="https://stats.winterballdata.com/"
-                  rel="noopener noreferrer"
-                >
-                  React & Redux - WinterballData Stats
-                </a>
-              </p>
-              <p style={{ marginLeft: "8px", fontSize: "12px" }}>
-                Web platform that offers historical data for the Dominican
-                Baseball League. Created with React, Redux and Firebase.
-              </p>
-              <p>
-                <a
-                  target="_blank"
-                  href="https://belated-valentine.web.app/"
-                  rel="noopener noreferrer"
-                >
-                  Belated Valentine - Comedy and Art blog
-                </a>
-              </p>
-              <p style={{ marginLeft: "8px", fontSize: "12px" }}>
-                Web platform to showcase various forms of art and comedy
-                content. Created using Next js and Tailwind.
-              </p>
-              <p>SimpleTask - FullStack Project</p>
-              <p style={{ marginLeft: "8px", fontSize: "12px" }}>
-                Frontend and Backend for a business "task manager" web app.
-                Built using React, Redux, MongoDB, Express and Mongoose.
-              </p>
-              <p>
-                <a
-                  target="_blank"
-                  href="https://cherry-rate-app.firebaseapp.com/"
-                  rel="noopener noreferrer"
-                >
-                  React & Redux - CherryPeach: Voting and Event Creation Web App
-                </a>
-              </p>
-              <p>
-                <a
-                  target="_blank"
-                  href="https://simpletxt-post.firebaseapp.com/"
-                  rel="noopener noreferrer"
-                >
-                  React & Redux - SimpleTxt: Social Media with Firebase
-                </a>
-              </p>
-            </div>
           </div>
 
           <div className="white fancyBorder" id="education">

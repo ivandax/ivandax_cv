@@ -4,8 +4,6 @@ import { GrLocation, GrPersonalComputer } from "react-icons/gr";
 import { IoMdBriefcase, IoMdBusiness } from "react-icons/io";
 import { AiOutlineMail, AiFillPhone } from "react-icons/ai";
 import { BsGlobe as LanguageIcon } from "react-icons/bs";
-import { TfiWrite as WriteIcon } from "react-icons/tfi";
-import { Link } from "react-router-dom";
 
 function SidePanel() {
   return (
@@ -16,7 +14,7 @@ function SidePanel() {
       <div className="mildMargin" id="summary_items">
         <h4 className="deepBlue">Ivan Dario Pinzon</h4>
         <p className="iconAndTitle">
-          <IoMdBriefcase /> Frontend Web Developer
+          <IoMdBriefcase /> Full Stack Web Developer
         </p>
         <p className="iconAndTitle">
           <GrLocation /> Barcelona, Spain
@@ -100,27 +98,6 @@ function SidePanel() {
             100%
           </div>
         </div>
-        <hr />
-      </div>
-      <div className="mildMargin" id="summary_languages">
-        <h4 className="deepBlue iconAndTitle">
-          <WriteIcon /> More stuff
-        </h4>
-        <a
-          href="https://github.com/ivandax/webpack-basic"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {"Webpack (link to Github)"}
-        </a>
-        <hr />
-        <Link
-          to="/algorithms"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {"Webpack (link to Github)"}
-        </Link>
         <hr />
       </div>
     </div>
