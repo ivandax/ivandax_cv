@@ -21,7 +21,7 @@ function Home() {
                 <AiOutlineCalendar /> June 2024 - Present
               </p>
               <p>
-                Development of a web application for power plants design
+                Development of web applications for power plants design
               </p>
               <ul>
                 <li>React, Typescript</li>
@@ -119,7 +119,7 @@ function Home() {
                 App for self-publishing articles and written content.
               </p>
               <a
-                href="http://www.culturetxt.com"
+                href="https://culturetxt.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -226,7 +226,7 @@ function Home() {
         </div>
       </div>
 
-      <footer className="displayColumn displayAlignCenter deepBlueBackground">
+      <footer className="displayAlignCenter deepBlueBackground">
         <div id="footer_content">Web Development</div>
       </footer>
     </div>
