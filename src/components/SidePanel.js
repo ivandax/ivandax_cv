@@ -51,36 +51,19 @@ function SidePanel() {
         <h4 className="deepBlue iconAndTitle">
           <GrPersonalComputer /> Skills
         </h4>
-        <p>Typescript &amp; Javascript </p>
-        <div className="progressBar stoneGrey">
-          <div className="progress deepBlueBackground" id="progress90">
-            90%
-          </div>
-        </div>
-        <p>React</p>
-        <div className="progressBar stoneGrey">
-          <div className="progress deepBlueBackground" id="progress90">
-            90%
-          </div>
-        </div>
-        <p>HTML &amp; CSS </p>
-        <div className="progressBar stoneGrey">
-          <div className="progress deepBlueBackground" id="progress90">
-            90%
-          </div>
-        </div>
-        <p>Node JS</p>
-        <div className="progressBar stoneGrey">
-          <div className="progress deepBlueBackground" id="progress60">
-            60%
-          </div>
-        </div>
-        <p>Java</p>
-        <div className="progressBar stoneGrey">
-          <div className="progress deepBlueBackground" id="progress60">
-            60%
-          </div>
-        </div>
+        <h4 className="iconAndTitle">Front-end</h4>
+        <p className="skills">
+          Javascript | Typescript | React | Redux | Zustand | Recoil | GraphQL |
+          React Query | Material UI | Styled Components | CSS | HTML5 | Three.js
+          | React Three Fiber | Mapbox | Leaflet | Redux Observable | Redux
+          Sagas
+        </p>
+        <h4 className="iconAndTitle">Back-end</h4>
+        <p className="skills">
+          Firebase | Node.js | NestJS | Express.js | MongoDB | SQL | PostgreSQL
+          | REST APIs | Java | Springboot | Docker | Python | Flask | SQLAlchemy
+          | Supabase | Prisma ORM | MongoDB
+        </p>
       </div>
       <div className="mildMargin" id="summary_languages">
         <h4 className="deepBlue iconAndTitle">
