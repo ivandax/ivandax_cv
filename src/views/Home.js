@@ -20,9 +20,7 @@ function Home() {
               <p>
                 <AiOutlineCalendar /> June 2024 - Present
               </p>
-              <p>
-                Development of web applications for power plants design
-              </p>
+              <p>Development of web applications for design of solar plants</p>
               <ul>
                 <li>React, Typescript</li>
                 <li>Zustand, React Context</li>
@@ -46,7 +44,8 @@ function Home() {
                 <AiOutlineCalendar /> March 2022 - Present
               </p>
               <p>
-                Development of frontend applications for a logistics business
+                Development of frontend applications for a logistics and
+                transportation business
               </p>
               <ul>
                 <li>Web applications with React, JS and TS</li>
@@ -86,13 +85,30 @@ function Home() {
             </div>
             <hr />
             <div className="mildMargin">
+              <h5>Culturetxt.com</h5>
+              <p>
+                <AiOutlineCalendar /> Feb 2024
+              </p>
+              <p>React, Firebase, Firestore, Zustand</p>
+              <p>Styling with Styled components</p>
+              <p>App for self-publishing articles and written content.</p>
+              <a
+                href="https://culturetxt.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Culturetxt
+              </a>
+            </div>
+            <hr />
+            <div className="mildMargin">
               <h5>WinterballData</h5>
               <p>
                 <AiOutlineCalendar /> Ongoing freelance project
               </p>
               <p>
-                Full-stack project: Creation of a web app for Dominican baseball historical
-                statistics.
+                Full-stack project: Creation of a web app for Dominican baseball
+                historical statistics.
               </p>
               <p>Design of the data model and implementation on Firestore.</p>
               <p>Authentication, storage and persistence</p>
@@ -109,21 +125,19 @@ function Home() {
             </div>
             <hr />
             <div className="mildMargin">
-              <h5>Culturetxt.com</h5>
+              <h5>Spanish con Marta</h5>
               <p>
                 <AiOutlineCalendar /> Feb 2024
               </p>
               <p>React, Firebase, Firestore, Zustand</p>
               <p>Styling with Styled components</p>
-              <p>
-                App for self-publishing articles and written content.
-              </p>
+              <p>Web app for spanish lessons</p>
               <a
-                href="https://culturetxt.com"
+                href="https://spanishconmarta.com/home"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Culturetxt
+                Spanish con Marta
               </a>
             </div>
             <hr />
