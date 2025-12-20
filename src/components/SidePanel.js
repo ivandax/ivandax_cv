@@ -14,7 +14,7 @@ function SidePanel() {
       <div className="mildMargin" id="summary_items">
         <h4 className="deepBlue">Ivan Dario Pinzon</h4>
         <p className="iconAndTitle">
-          <IoMdBriefcase /> Full Stack Web Developer
+          <IoMdBriefcase /> Senior Frontend Engineer
         </p>
         <p className="iconAndTitle">
           <GrLocation /> Barcelona, Spain
