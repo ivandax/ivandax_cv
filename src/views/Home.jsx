@@ -79,6 +79,12 @@ function Home() {
               <p className="institution">Ironhack</p>
               <p className="date">2022, Barcelona</p>
             </div>
+
+            <div className="education-item">
+              <h3>Backend Development with Python and Flask</h3>
+              <p className="institution">Udacity</p>
+              <p className="date">2022</p>
+            </div>
           </section>
         </main>
 
