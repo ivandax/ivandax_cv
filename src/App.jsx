@@ -1,8 +1,8 @@
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import Home from "./views/Home";
-import ErrorPage from "./views/ErrorPage";
+import Home from "./views/Home.jsx";
+import ErrorPage from "./views/ErrorPage.jsx";
 
 import { initializeApp } from "firebase/app";
 
