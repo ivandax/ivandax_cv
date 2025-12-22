@@ -109,16 +109,7 @@ function Home() {
                 github.com/ivandax
               </a>
             </p>
-            <p>
-              <a
-                href="https://ivandax-cv.web.app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                ivandax-cv.web.app
-              </a>
-            </p>
-            <p>Barcelona</p>
+            <p>Lyon, France</p>
           </section>
 
           <section className="sidebar-section">
