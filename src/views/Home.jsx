@@ -1,10 +1,12 @@
 import "../App.css";
 import "./Home.css";
 import ivanPhoto from "../images/ivan.jpg";
+import { AnalyticsTracker } from "../components/AnalyticsTracker";
 
-function Home() {
+function Home({ analytics }) {
   return (
     <div className="cv-container">
+      <AnalyticsTracker analytics={analytics} />
       <header className="cv-header">
         <div className="header-content">
           <div className="header-text">

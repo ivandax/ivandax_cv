@@ -5,6 +5,7 @@ import Home from "./views/Home.jsx";
 import ErrorPage from "./views/ErrorPage.jsx";
 
 import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBH6Eixd4YI9Pd-KJHczujVqSp1DFM2i3o",
@@ -19,11 +20,12 @@ const firebaseConfig = {
 // Initialize Firebase
 // eslint-disable-next-line no-unused-vars
 const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Home analytics={analytics} />,
     errorElement: <ErrorPage />,
   },
 ]);
