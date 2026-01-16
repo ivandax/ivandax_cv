@@ -12,7 +12,7 @@ function Home({ analytics }) {
           <div className="header-text">
             <h1>Ivan Dario Pinzon</h1>
             <p className="headline">
-              Senior Frontend Engineer (React-TypeScript)
+              Senior Web Developer (TypeScript - React - Javascript - Java)
             </p>
           </div>
           <div className="header-photo">
@@ -65,6 +65,22 @@ function Home({ analytics }) {
             </div>
           </section>
 
+          <section className="cv-section portfolio-section">
+            <h2>Portfolio</h2>
+            <ul className="portfolio-list">
+              <li>
+                <a href="https://culturetxt.com/home" target="_blank" rel="noopener noreferrer">
+                  Culturetxt
+                </a>
+              </li>
+              <li>
+                <a href="https://stats.winterballdata.com/" target="_blank" rel="noopener noreferrer">
+                  Winterball Data
+                </a>
+              </li>
+            </ul>
+          </section>
+
           <section className="cv-section">
             <h2>Education</h2>
 
@@ -101,7 +117,7 @@ function Home({ analytics }) {
                 ivandariogye@gmail.com
               </a>
             </p>
-            <p>+34 692623935</p>
+            <p>+33 749245347</p>
             <p>
               <a
                 href="https://github.com/ivandax"
@@ -147,6 +163,7 @@ function Home({ analytics }) {
               <strong>English:</strong> Professional
             </p>
           </section>
+
         </aside>
       </div>
     </div>
