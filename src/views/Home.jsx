@@ -69,13 +69,17 @@ function Home({ analytics }) {
             <h2>Portfolio</h2>
             <ul className="portfolio-list">
               <li>
+                <div className="portfolio-title">Culturetxt</div>
+                <div className="portfolio-desc">A platform for sharing and discovering texts, quotes, and ideas. Built with React, Firebase, and a focus on community-driven content.</div>
                 <a href="https://culturetxt.com/home" target="_blank" rel="noopener noreferrer">
-                  Culturetxt
+                  Visit culturetxt.com
                 </a>
               </li>
               <li>
+                <div className="portfolio-title">Winterball Data</div>
+                <div className="portfolio-desc">A stats and analytics site for the Dominican Winter Baseball League, featuring interactive charts and player data. Built with React, Node.js and Firebase.</div>
                 <a href="https://stats.winterballdata.com/" target="_blank" rel="noopener noreferrer">
-                  Winterball Data
+                  Visit winterballdata.com
                 </a>
               </li>
             </ul>

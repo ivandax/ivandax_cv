@@ -1,3 +1,15 @@
+.portfolio-title {
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-bottom: 2px;
+  color: #222;
+}
+
+.portfolio-desc {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 4px;
+}
 /* Portfolio Section */
 .portfolio-section {
   margin-top: 30px;
